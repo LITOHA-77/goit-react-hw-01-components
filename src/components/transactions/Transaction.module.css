@@ -1,0 +1,62 @@
+.transaction {
+    margin: 30px auto;
+    width: 500px;
+    border-radius: 10px;
+        border-spacing: 0;
+        box-shadow: rgb(70 68 70 / 59%) 0px 0px 10px;
+
+}
+
+.title {
+    color: white;
+    background-color: rgb(23, 197, 209);
+
+ } 
+
+th {
+    
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px #2D2020;
+    padding: 10px 20px;
+}
+
+th,
+td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+tr {
+        width: calc(33.3333%);
+        padding-left: 70px;
+}
+
+th:first-child {
+    border-top-left-radius: 10px;
+}
+
+th:last-child {
+    border-top-right-radius: 10px;
+    border-right: none;
+}
+
+td {
+    text-transform: capitalize;
+    width: calc(33.3333%);
+    padding-left: 59px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+
+tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
+
+tr td:last-child {
+    border-right: none;
+}
